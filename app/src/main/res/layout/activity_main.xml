@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="732dp"
+        android:rotationX="0"
+        android:scaleX="10"
+        android:scaleY="20"
+        app:srcCompat="@drawable/_ebcad14e3950d038ae17b03f3fea250"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="72dp"
+        android:text="A-Dry buddy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="172dp"
+        android:layout_height="63dp"
+        android:text="Roślina 1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="172dp"
+        android:layout_height="64dp"
+        android:text="Roślina 2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:text="Roślina 3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="357dp"
+        android:layout_height="91dp"
+        android:text="Dodaj roślinę"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="357dp"
+        android:layout_height="107dp"
+        android:text="Zweryfikuj roślinę"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
