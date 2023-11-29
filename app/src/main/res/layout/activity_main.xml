@@ -14,8 +14,19 @@
         android:scaleX="10"
         android:scaleY="20"
         app:srcCompat="@drawable/_ebcad14e3950d038ae17b03f3fea250"
-        tools:layout_editor_absoluteX="-19dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poziom nawodnienia"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="169dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="185dp"
@@ -27,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.042" />
 
     <Button
         android:id="@+id/button"
@@ -68,8 +79,92 @@
         android:id="@+id/button5"
         android:layout_width="357dp"
         android:layout_height="107dp"
-        android:text="Zweryfikuj roślinę"
+        android:text="Zweryfikuj roślinę za pomocą Flora Incognita"
+        tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="597dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="149dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="149dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="149dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poziom nawodnienia"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poziom nawodnienia"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poziom nawodnienia"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:text="*C"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasłonecznie"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar7"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="153dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="122dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
