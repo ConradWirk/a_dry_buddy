@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Roslina1"
         style="@style/Widget.Material3.Button.ElevatedButton"
         android:layout_width="172dp"
         android:layout_height="64dp"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/progressBar6" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Roslina2"
         style="@style/Widget.Material3.Button.ElevatedButton"
         android:layout_width="172dp"
         android:layout_height="64dp"
@@ -45,10 +45,10 @@
         android:elevation="10dp"
         android:text="Roślina 2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/Roslina1" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Roslina3"
         style="@style/Widget.Material3.Button.ElevatedButton"
         android:layout_width="172dp"
         android:layout_height="64dp"
@@ -57,7 +57,7 @@
         android:elevation="10dp"
         android:text="Roślina 3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/Roslina2" />
 
     <Button
         android:id="@+id/button4"
@@ -90,7 +90,7 @@
         android:layout_height="29dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="45dp"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/Roslina1"
         app:layout_constraintTop_toBottomOf="@+id/progressBar7" />
 
     <ProgressBar
@@ -100,7 +100,7 @@
         android:layout_height="29dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="82dp"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/Roslina2"
         app:layout_constraintTop_toBottomOf="@+id/progressBar2" />
 
     <ProgressBar
@@ -110,7 +110,7 @@
         android:layout_height="29dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="82dp"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/Roslina3"
         app:layout_constraintTop_toBottomOf="@+id/progressBar4" />
 
     <TextView
@@ -121,7 +121,7 @@
         android:text="Poziom nawodnienia"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar2"
-        app:layout_constraintStart_toEndOf="@+id/button" />
+        app:layout_constraintStart_toEndOf="@+id/Roslina1" />
 
     <TextView
         android:id="@+id/textView4"
@@ -131,7 +131,7 @@
         android:text="Poziom nawodnienia"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar4"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/Roslina2" />
 
     <TextView
         android:id="@+id/textView6"
@@ -141,7 +141,7 @@
         android:text="Poziom nawodnienia"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar5"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
+        app:layout_constraintStart_toEndOf="@+id/Roslina3" />
 
     <ProgressBar
         android:id="@+id/progressBar6"
