@@ -23,5 +23,7 @@
         </activity>
         <activity android:name=".Roslina1"/>
     </application>
-
+    <queries>
+        <package android:name="com.floraincognita.app.floraincognita" />
+    </queries>
 </manifest>
