@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="title_activity_roslina">roslina</string>
+    <string name="linijka">%1$s</string>
 </resources>

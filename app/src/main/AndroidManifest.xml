@@ -26,4 +26,5 @@
     <queries>
         <package android:name="com.floraincognita.app.floraincognita" />
     </queries>
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
