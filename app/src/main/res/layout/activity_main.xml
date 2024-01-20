@@ -188,7 +188,8 @@
         android:layout_marginTop="35dp"
         android:layout_marginEnd="24dp"
         android:clickable="true"
-        android:max="100"
+        android:indeterminate="false"
+        android:max="10000"
         android:progress="26"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
