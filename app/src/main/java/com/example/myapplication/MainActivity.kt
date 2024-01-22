@@ -24,7 +24,7 @@ import java.net.URL
 class MainActivity : AppCompatActivity() {
 
     //private lateinit var userInputEditText: EditText
-    private var daneIP: String = "raw.githubusercontent.com/ConradWirk/a_dry_buddy/master"
+    private var daneIP: String = "172.20.10.10"//"raw.githubusercontent.com/ConradWirk/a_dry_buddy/master"
 
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,28 +65,28 @@ class MainActivity : AppCompatActivity() {
         }
         val wil1 = findViewById<ProgressBar>(R.id.progressBar2)
         wil1.setOnClickListener{
-            ip = "https://$daneIP"
+            ip = "http://$daneIP"
             fetchUrlProgressBar("$ip/wil1", R.id.progressBar2)
             println(ip)
         }
         val wil2 = findViewById<ProgressBar>(R.id.progressBar4)
         wil2.setOnClickListener{
-            ip = "https://$daneIP"
+            ip = "http://$daneIP"
             fetchUrlProgressBar("$ip/wil2", R.id.progressBar4)
         }
         val wil3 = findViewById<ProgressBar>(R.id.progressBar5)
         wil3.setOnClickListener{
-            ip = "https://$daneIP"
+            ip = "http://$daneIP"
             fetchUrlProgressBar("$ip/wil3", R.id.progressBar5)
         }
         val swiatlo = findViewById<ProgressBar>(R.id.progressBar7)
         swiatlo.setOnClickListener{
-            ip = "https://$daneIP"
+            ip = "http://$daneIP"
             fetchUrlProgressBar("$ip/swiatlo", R.id.progressBar7)
         }
         val temperatura = findViewById<TextView>(R.id.temperatura)
         temperatura.setOnClickListener{
-            ip = "https://$daneIP"
+            ip = "http://$daneIP"
             fetchUrlTextView("$ip/temperatura", R.id.temperatura)
         }
 
@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity() {
                 content.append(line).append("\n")
             }
 
-            content.toString()
+            content.trim().toString()
         } finally {
             connection.disconnect()
         }
